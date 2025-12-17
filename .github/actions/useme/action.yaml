@@ -1,0 +1,11 @@
+name: example action
+description: |
+  action for testing github-actions (does nothing useful, please ignore me)
+
+runs:
+  using: composite
+  steps:
+    - name: hello
+      shell: bash
+      run: |
+        echo hello-world
