@@ -9,3 +9,5 @@ runs:
       shell: bash
       run: |
         echo hello-world
+        pwd
+        find
